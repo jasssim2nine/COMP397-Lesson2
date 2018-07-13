@@ -21,7 +21,7 @@
     }
     function Main() {
         console.log("Game Started...");
-        helloLabel = new createjs.Text("Hello World!", "40px consolas", "#000000");
+        helloLabel = new createjs.Text("Hello, World!", "40px consolas", "#000000");
         helloLabel.x = 100;
         helloLabel.y = 100;
         stage.addChild(helloLabel);
