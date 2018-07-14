@@ -13,7 +13,7 @@ module objects{
 
 
                 this.on("mouseover",this._mouseOver);
-                this.on("mouseout",_mouseOut);
+                this.on("mouseout",this._mouseOut);
             }
         //Private Methods
                 private _mouseOver():void{

@@ -22,7 +22,7 @@ var objects;
             _this.x = x;
             _this.y = y;
             _this.on("mouseover", _this._mouseOver);
-            _this.on("mouseout", _mouseOut);
+            _this.on("mouseout", _this._mouseOut);
             return _this;
         }
         //Private Methods
